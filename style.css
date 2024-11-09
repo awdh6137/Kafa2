@@ -1,0 +1,81 @@
+.body{ 
+    background-color:rgb(213, 184, 241) 
+} 
+body{
+   background-color:rgb(32, 3, 60)
+ 
+}
+h1 span{
+    color: #000;
+}
+.cv{
+    position: absolute;
+    margin: 111px auto;
+    bottom:90px;
+    left: 500px;
+    padding: 200px;
+}
+
+
+p{
+    margin-left: 80px;
+    font-size: 20px;
+    color: yellow;
+    font-weight: bold;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin:10px;
+    padding-left: 70px;
+    color: #f3eee9;
+    box-shadow: 0 0 6px rgb(66, 65, 65);
+}
+.btn{
+    border: 1px solid #ffb400 ;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 35px;
+    padding: 10px;
+    margin-left: 80px;
+}
+.btn:hover{
+    background-color: #ffb400;
+    color: black;
+}
+
+.div1,.div2,.div3{
+    opacity: 0;
+    translate:translateX(-100%) ;
+    animation-name: X;
+    animation-duration: 1S;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(121, 118, 118);
+    color: #e9c10b;
+    justify-content: center;
+    padding: 20px;
+ 
+  
+      }
+      .div1{
+        animation-duration: 1S;
+
+      }
+      .div2{
+        animation-duration: 2S;
+      }
+      .div3{
+        animation-duration: 3S;
+      }
+      @keyframes X{
+        to{
+            opacity: 1;
+            translate: translateX(0);
+    
+        }
+      }
+    

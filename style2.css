@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body { 
+   background-image: url("صورة لمشروع الاستذ علا.gif");
+   /* background-color: rgb(255, 0, 85); */
+
+background-size: cover;
+
+}
+header .navbar {
+    height: 30vh;
+ 
+}
+h2 span{
+    background-color: #edebe6;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    left: 0;
+    background-color: rgb(13, 2, 49);
+    box-shadow: 0 0 6px rgb(217, 213, 213);
+    
+}
+a button{
+    background-color: #e5ac27;
+
+}
+
+
+
+.image-container {
+
+    /* display: flex; */
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+ 
+}
+
+.interactive-image {
+    width: 500px;
+    height: 500px;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+
+.interactive-image:hover {
+    transform: scale(1.1); /* تكبير الصورة */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.3);
+}
+header nav ul li {
+    display: inline-block;
+    margin: 20px;
+    list-style-type: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 17px;
+    color: #faf1f1;
+}
+header nav ul li a:hover{
+    border-bottom:1px solid black ;
+    transition: 0.5s;
+    color: #e5ac27;
+}
+header .navbar #name{
+    text-decoration: none;
+    color: #f6f5f3;
+    font-weight: 700;
+    font-size: 20px;
+}
+header .navbar #name:hover{
+    color: rgb(218, 177, 27);
+    transition: 0.5s;
+}
+.col_text{
+color: #e5ac27;
+}
+
+#about,#skills{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+.container{
+max-width: 1100px;
+margin: auto;
+}
+
+#about h2
+{
+    text-align: center;
+    font-size: 38px;
+    color: #e5ac27;
+    font-weight: 600;
+}
+#about h2 .Me{
+    color: #444242;
+}
+#about hr,
+#skills hr,
+#portfolio hr {
+    width: 130px;
+    height: 2px;
+    background-color: #e5ac27;  
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin: auto;
+}
+#about .about_content{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 10px;
+}
+#about .about_content .col_1 h3{
+    font-size: 25px;
+    color: #444242;
+
+}
+#about .about_content .col_1 p{
+    margin-bottom: 30px;
+}
+
+#about .about_content .col_2 p{
+    color: rgb(81, 0, 255);
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid yellow;
+}
+
+p{
+    color: #0b0b0b;
+}
+
+.skill_content{
+    text-align: center;
+    font-size: 28px;
+    color: #e5ac27;
+    font-weight: 600;
+}
+#skills h2 .My{
+    color: #e5ac27;
+}
+
+.skills .skill_content{
+    width: 500px;
+    margin: 60px auto;
+    color: #444242;
+    background-color: #f5f1f1;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(37, 36, 36);
+}
+
+.skills li{
+list-style-type: none;
+margin: 20px;
+padding: 10px;
+}
+.ka{
+    background-color: #0a0a0a;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.7s;
+}
+.ka span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(rgb(219, 83, 167),rgb(209, 185, 65),rgb(24, 24, 24));
+}
+.g{
+    width: 90%;
+    animation-name: aa;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+.bb{
+    width: 70%;
+    animation-name: bb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}.cc{
+    width: 45%;
+    animation-name: cc;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}.dd{
+    width: 60%;
+    animation-name: dd;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aa{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}@keyframes bb{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}@keyframes cc{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}@keyframes dd{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+
+
+
+#portfolio{
+    width: 100%;
+    height: 100%;
+}
+.portfolio_content h2{
+    text-align: center;
+    font-size: 35px;
+    color: #1f1e1d;
+    font-weight: 600;
+}
+.portfolio_content .My{
+    color: #444242;
+}
+
+#photo{
+    max-width: 50%;
+    margin-top: 30px;
+ 
+}
